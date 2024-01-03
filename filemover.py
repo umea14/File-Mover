@@ -31,14 +31,14 @@ date = day+', '+d[0]+' '+d[1]+', '+d[2]
 global path
 global path2
 path = '\\'+date
-newpath = r"C:\\Users\\dee_olker\\Desktop\\Coding\\New Test"
+newpath = r"C:\\Users\\victoria\\Desktop\\Coding\\New Test"
 #path = '\\Thu, Dec 29, 2023'
 
 try:
-    filename = pathlib.Path(r"C:\\Users\\dee_olker\\Desktop\\Coding\\"+path)
+    filename = pathlib.Path(r"C:\\Users\\victoria\\Desktop\\Coding\\"+path)
     print("Folder exists")
     try:
-        filename2 = 'C:\\Users\\dee_olker\\Desktop\\Coding\\'+path
+        filename2 = 'C:\\Users\\victoria\\Desktop\\Coding\\'+path
        # print("File exists")
         regex = re.compile('(.*xlsx)')
         for root, dirs, files in os.walk(filename):
